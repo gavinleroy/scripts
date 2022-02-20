@@ -2,7 +2,7 @@
 
 ;; Gavin Gray, budget keeping command line tool
 
-(define file "data/budget.datum")
+(define file (string-append (getenv "SCRIPT_DATA_PATH") "/budget.datum"))
 
 (define amounts
   (let* ((p (open-input-file file))

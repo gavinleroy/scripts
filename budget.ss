@@ -43,6 +43,9 @@
     (printf "You came in under budget!~%"))
   (rebuild `(debt ,new-debt ,(date-and-time)) (reset wallet)))
 
+(define (show wallet)
+  wallet)
+
 ;; --- utilities ---
 
 (define (monthly dtm)

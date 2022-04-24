@@ -3,4 +3,5 @@
 *.log
 tmp/
 data/
+.akku/
 init-script-data.ss

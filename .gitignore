@@ -1,5 +1,6 @@
 .DS_Store
 .idea
+.chez-geiser
 *.log
 tmp/
 data/

@@ -1,4 +1,4 @@
-#! /usr/local/Cellar/chezscheme/9.5.6/bin/chez --script
+#! /usr/local/bin/chez --script
 
 ;; Gavin Gray, budget keeping command line tool
 
